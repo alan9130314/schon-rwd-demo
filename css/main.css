@@ -1026,7 +1026,7 @@ li.product .rating {
 
 .breadcrumb-title {
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .breadcrumb-subtitle span {
@@ -1210,10 +1210,7 @@ li.ourTeam img {
     background-size: cover;
 }
 
-.breadcrumb-title {
-    font-weight: bolder;
-    font-size: 3rem;
-}
+
 
 .breadcrumb-subtitle span {
     padding: 0 1rem;
@@ -1499,7 +1496,6 @@ li.ourTeam img {
 .blogSide-header {
     height: 30vh;
     position: relative;
-
     background-color: #f4f4f4;
     color: #494949;
     background-repeat: no-repeat;
