@@ -21,6 +21,9 @@ a:hover {
 }
 
 /*--------------*/
+#OSCheader-info {
+    background-color: #f0f0f0;
+}
 #OSCheader-info span {
     color: #696969;
     font-size: .5rem;
@@ -29,6 +32,7 @@ a:hover {
 #OSCheader-info a {
     color: #696969;
 }
+
 
 /*--------------*/
 #CheckOutheader-info {
@@ -44,6 +48,10 @@ a:hover {
 
 #CheckOutheader-info a {
     color: rgb(255, 255, 255);
+}
+#CheckOutheader-info span {
+    color: rgb(255, 255, 255);
+    font-size: .5rem;
 }
 
 /*--------------*/
@@ -77,13 +85,13 @@ a:hover {
 }
 
 /* ----------------------------------- */
-#OSCheader-info .header-tele {
+#OSCheader-info .header-tele {    
     padding: 0;
     font-size: .5rem;
 }
 
 #OSCheader-info .header-tele:hover {
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
 
 #OSCheader-info .header-login,
@@ -124,6 +132,11 @@ a:hover {
 
 
 /* ----------------------------------- */
+#CheckOutheader-info .header-tele {    
+    padding: 0;
+    font-size: .5rem;
+}
+
 #CheckOutheader-info .header-login,
 #CheckOutheader-info .header-create,
 #CheckOutheader-info .header-lang button {
@@ -157,6 +170,9 @@ a:hover {
 
 #CheckOutheader-info .header-tele:hover {
     background-color: transparent;
+}
+#CheckOutheader-info .dropdown-menu a {
+  color: #696969;
 }
 
 /* ----------------------------------- */
@@ -3151,10 +3167,16 @@ ul.productsListPage .page-item {
     right: 1%;
 }
 
-.blogCart .triangle {
+.checkOutCart {
+    position: absolute;
+    top: 95px;
+    right: 10%;
+}
+
+.checkOutCart .triangle {
     position: absolute;
     top: -13px;
-    right: 75px;
+    right: 45px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -3162,6 +3184,7 @@ ul.productsListPage .page-item {
     border-color:
         transparent transparent #ffffff transparent;
 }
+
 
 #shoppingCart .content {
     padding: 2rem 2rem;
