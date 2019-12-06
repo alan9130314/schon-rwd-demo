@@ -4133,6 +4133,7 @@ form.billing textarea {
     line-height: 2;
     font-weight: 500;
     font-weight: 300;
+    white-space:nowrap;
 }
 
 .termsCheckBox .custom-checkbox input {
