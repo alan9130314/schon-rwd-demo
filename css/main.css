@@ -4121,6 +4121,7 @@ form.billing textarea {
     display: block;
     position: relative;
     padding-left: 10%;
+    padding-right: calc(10% + 15px);
     margin-bottom: .1rem;
     cursor: pointer;
     font-size: .5rem;
