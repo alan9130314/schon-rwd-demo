@@ -2298,7 +2298,7 @@ li.ourTeam img {
     left: 2rem;
     top: 50%;
     border: none;
-    background-color: rgb(145, 145, 145);
+/*     background-color: rgb(145, 145, 145); */
     transform: translate(0, -60%);
 }
 
